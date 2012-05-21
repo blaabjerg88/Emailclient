@@ -56,12 +56,11 @@
             // textBoxBody
             // 
             this.textBoxBody.BackColor = System.Drawing.SystemColors.Info;
-            this.textBoxBody.Location = new System.Drawing.Point(593, 97);
-            this.textBoxBody.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxBody.Location = new System.Drawing.Point(445, 79);
             this.textBoxBody.Multiline = true;
             this.textBoxBody.Name = "textBoxBody";
             this.textBoxBody.ReadOnly = true;
-            this.textBoxBody.Size = new System.Drawing.Size(937, 603);
+            this.textBoxBody.Size = new System.Drawing.Size(704, 491);
             this.textBoxBody.TabIndex = 0;
             // 
             // listViewInbox
@@ -72,11 +71,11 @@
             this.inboxSender,
             this.inboxTime});
             this.listViewInbox.FullRowSelect = true;
-            this.listViewInbox.Location = new System.Drawing.Point(12, 41);
-            this.listViewInbox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listViewInbox.Location = new System.Drawing.Point(9, 33);
+            this.listViewInbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listViewInbox.MultiSelect = false;
             this.listViewInbox.Name = "listViewInbox";
-            this.listViewInbox.Size = new System.Drawing.Size(573, 661);
+            this.listViewInbox.Size = new System.Drawing.Size(431, 538);
             this.listViewInbox.TabIndex = 4;
             this.listViewInbox.UseCompatibleStateImageBehavior = false;
             this.listViewInbox.View = System.Windows.Forms.View.Details;
@@ -104,29 +103,30 @@
             // 
             // progressBarMail
             // 
-            this.progressBarMail.Location = new System.Drawing.Point(1272, 5);
-            this.progressBarMail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.progressBarMail.Location = new System.Drawing.Point(954, 4);
+            this.progressBarMail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.progressBarMail.Name = "progressBarMail";
-            this.progressBarMail.Size = new System.Drawing.Size(259, 23);
+            this.progressBarMail.Size = new System.Drawing.Size(194, 19);
             this.progressBarMail.TabIndex = 7;
             this.progressBarMail.Visible = false;
             // 
             // textBoxFrom
             // 
             this.textBoxFrom.BackColor = System.Drawing.SystemColors.Info;
-            this.textBoxFrom.Location = new System.Drawing.Point(664, 41);
-            this.textBoxFrom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxFrom.Location = new System.Drawing.Point(498, 33);
+            this.textBoxFrom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxFrom.Name = "textBoxFrom";
             this.textBoxFrom.ReadOnly = true;
-            this.textBoxFrom.Size = new System.Drawing.Size(639, 22);
+            this.textBoxFrom.Size = new System.Drawing.Size(480, 20);
             this.textBoxFrom.TabIndex = 8;
             // 
             // labelProgress
             // 
             this.labelProgress.AutoSize = true;
-            this.labelProgress.Location = new System.Drawing.Point(982, 11);
+            this.labelProgress.Location = new System.Drawing.Point(736, 9);
+            this.labelProgress.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelProgress.Name = "labelProgress";
-            this.labelProgress.Size = new System.Drawing.Size(77, 17);
+            this.labelProgress.Size = new System.Drawing.Size(59, 13);
             this.labelProgress.TabIndex = 9;
             this.labelProgress.Text = "Updating...";
             this.labelProgress.Visible = false;
@@ -142,37 +142,38 @@
             // textBoxSubject
             // 
             this.textBoxSubject.BackColor = System.Drawing.SystemColors.Info;
-            this.textBoxSubject.Location = new System.Drawing.Point(664, 67);
-            this.textBoxSubject.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxSubject.Location = new System.Drawing.Point(498, 54);
+            this.textBoxSubject.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxSubject.Name = "textBoxSubject";
             this.textBoxSubject.ReadOnly = true;
-            this.textBoxSubject.Size = new System.Drawing.Size(639, 22);
+            this.textBoxSubject.Size = new System.Drawing.Size(480, 20);
             this.textBoxSubject.TabIndex = 10;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(590, 44);
+            this.label1.Location = new System.Drawing.Point(442, 36);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 17);
+            this.label1.Size = new System.Drawing.Size(33, 13);
             this.label1.TabIndex = 11;
             this.label1.Text = "From:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(590, 70);
+            this.label2.Location = new System.Drawing.Point(442, 57);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 17);
+            this.label2.Size = new System.Drawing.Size(46, 13);
             this.label2.TabIndex = 12;
             this.label2.Text = "Subject:";
             // 
             // buttonReply
             // 
-            this.buttonReply.Location = new System.Drawing.Point(1310, 41);
-            this.buttonReply.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonReply.Location = new System.Drawing.Point(982, 33);
             this.buttonReply.Name = "buttonReply";
-            this.buttonReply.Size = new System.Drawing.Size(68, 48);
+            this.buttonReply.Size = new System.Drawing.Size(51, 39);
             this.buttonReply.TabIndex = 13;
             this.buttonReply.Text = "Reply";
             this.buttonReply.UseVisualStyleBackColor = true;
@@ -180,10 +181,9 @@
             // 
             // buttonForward
             // 
-            this.buttonForward.Location = new System.Drawing.Point(1386, 41);
-            this.buttonForward.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonForward.Location = new System.Drawing.Point(1040, 33);
             this.buttonForward.Name = "buttonForward";
-            this.buttonForward.Size = new System.Drawing.Size(68, 48);
+            this.buttonForward.Size = new System.Drawing.Size(51, 39);
             this.buttonForward.TabIndex = 14;
             this.buttonForward.Text = "Forward";
             this.buttonForward.UseVisualStyleBackColor = true;
@@ -191,10 +191,9 @@
             // 
             // buttonDelete
             // 
-            this.buttonDelete.Location = new System.Drawing.Point(1462, 41);
-            this.buttonDelete.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonDelete.Location = new System.Drawing.Point(1096, 33);
             this.buttonDelete.Name = "buttonDelete";
-            this.buttonDelete.Size = new System.Drawing.Size(68, 48);
+            this.buttonDelete.Size = new System.Drawing.Size(51, 39);
             this.buttonDelete.TabIndex = 15;
             this.buttonDelete.Text = "Delete";
             this.buttonDelete.UseVisualStyleBackColor = true;
@@ -206,7 +205,8 @@
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1548, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1077, 24);
             this.menuStrip1.TabIndex = 16;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -218,43 +218,43 @@
             this.settingsToolStripMenuItem1,
             this.quitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(44, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.newToolStripMenuItem.Text = "New";
             this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
             // 
             // settingsToolStripMenuItem
             // 
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.settingsToolStripMenuItem.Text = "Refresh";
             this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
             // 
             // settingsToolStripMenuItem1
             // 
             this.settingsToolStripMenuItem1.Name = "settingsToolStripMenuItem1";
-            this.settingsToolStripMenuItem1.Size = new System.Drawing.Size(152, 24);
+            this.settingsToolStripMenuItem1.Size = new System.Drawing.Size(116, 22);
             this.settingsToolStripMenuItem1.Text = "Settings";
             this.settingsToolStripMenuItem1.Click += new System.EventHandler(this.settingsToolStripMenuItem1_Click);
             // 
             // quitToolStripMenuItem
             // 
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.quitToolStripMenuItem.Text = "Quit";
             this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
             // 
             // FormInbox
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1548, 716);
+            this.ClientSize = new System.Drawing.Size(1077, 582);
             this.Controls.Add(this.buttonDelete);
             this.Controls.Add(this.buttonForward);
             this.Controls.Add(this.buttonReply);
@@ -268,7 +268,6 @@
             this.Controls.Add(this.textBoxBody);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormInbox";
             this.Text = "FormInbox";
             this.menuStrip1.ResumeLayout(false);

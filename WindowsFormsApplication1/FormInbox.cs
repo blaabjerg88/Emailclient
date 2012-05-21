@@ -22,7 +22,7 @@ namespace WindowsFormsApplication1
 {
     public partial class FormInbox : Form
     {
-        int selectedMail = 0;
+        int selectedMail = 0000;
 
         public static FormInbox staticVar = null;
         private Pop3Client pop3client;
@@ -59,7 +59,7 @@ namespace WindowsFormsApplication1
                 {
                     try
                     {
-                        Application.DoEvents();
+                        //Application.DoEvents();
                         string body;
                         Message message = pop3client.GetMessage(i);
                         MessagePart plainTextPart = message.FindFirstPlainTextVersion();
@@ -290,11 +290,19 @@ namespace WindowsFormsApplication1
         }
 
         private void buttonReply_Click(object sender, EventArgs e)
-        {   // Mail - Reply
-            staticVar = this;
-            //this.Hide();
-            Form1 form1 = new Form1(selectedMail, 1);
-            form1.Show();
+        {
+            if (selectedMail != 0000)
+            {
+                // Mail - Reply
+                staticVar = this;
+                //this.Hide();
+                Form1 form1 = new Form1(selectedMail, 1);
+                form1.Show();
+            }
+            else
+            {
+                MessageBox.Show("Choose a Message");
+            }
         }
 
         private void buttonForward_Click(object sender, EventArgs e)
